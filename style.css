@@ -1,0 +1,40 @@
+body {
+padding-top:800px;
+text-align: center;
+}
+#img1{
+width: 175px;
+margin-top: 200px;
+margin-bottom: 50px;
+border-radius: 60%;
+}
+#welcome{
+position: absolute;
+height: 800px;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+background:linear-gradient(#0575ed 0%,#0addf0 100%)
+}
+.menu{
+list-style: none;
+position: absolute;
+top: 10px;
+right: 130px;
+z-index: 10;
+cursor: pointer;
+}
+.links{
+float: left;
+color: black;
+padding-top: 5px;
+padding-left: 10px;
+padding-right: 9px;
+padding-bottom: 9px;
+font-size: 20px;
+font-family: cursive;
+}
+.links:hover{
+font-size: 25px;
+}
